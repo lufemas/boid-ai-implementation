@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    margin: .5rem;
+}
+
+.settings-container{
+    display: flex;
+    justify-content: center;
+}
+
+.behavior-settings{
+    margin: 1rem 4rem 1.5rem 4rem;
+}
+
+.setting{
+    display: flex;
+    flex-direction: column;
+}

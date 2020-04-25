@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/phaser.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/Scene1.js"></script>
+    <script src="./js/Boid.js"></script>
+    <script src="./js/app.js"></script>
+</head>
+<body>
+        <article class="settings-container">
+
+            <div id="align" class="behavior-settings">
+                <h3>Alignment</h3>
+                <section class="setting">
+                    <label for="">Perception Distance:<span id="align-perception-distance-range-span"> 50</span>px</label>
+                    <input type="range" min="1" max="100" value="50" class="slider" id="align-perception-distance-range">
+                </section>
+                <section class="setting">
+                    <label for="">Intensity:<span id="align-intensity-range-span"> 10</span></label>
+                    <input type="range" min="1" max="50" value="10" class="slider" id="align-intensity-range">
+                </section>
+            </div>
+
+            <div id="align" class="behavior-settings">
+                <h3>Cohesion</h3>
+                <section class="setting">
+                    <label for="">Perception Distance:<span id="cohesion-perception-distance-range-span"> 75</span>px</label>
+                    <input type="range" min="1" max="100" value="75" class="slider" id="cohesion-perception-distance-range">
+                </section>
+                <section class="setting">
+                    <label for="">Intensity:<span id="cohesion-intensity-range-span"> 10</span></label>
+                    <input type="range" min="1" max="50" value="10" class="slider" id="cohesion-intensity-range">
+                </section>
+            </div>
+
+            <div id="align" class="behavior-settings">
+                <h3>Separation</h3>
+                <section class="setting">
+                    <label for="">Perception Distance:<span id="separation-perception-distance-range-span"> 25</span>px</label>
+                    <input type="range" min="1" max="100" value="25" class="slider" id="separation-perception-distance-range">
+                </section>
+                <section class="setting">
+                    <label for="">Intensity:<span id="separation-intensity-range-span"> 17</span></label>
+                    <input type="range" min="1" max="50" value="17" class="slider" id="separation-intensity-range">
+                </section>
+            </div>
+
+        </article>
+    
+    
+</body>
+</html>
