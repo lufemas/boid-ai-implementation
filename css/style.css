@@ -14,10 +14,44 @@ h3 {
 }
 
 .behavior-settings{
-    margin: 1rem 4rem 1.5rem 4rem;
+    margin: .25rem 4rem 0.5rem 4rem;
 }
 
 .setting{
     display: flex;
     flex-direction: column;
+}
+
+h1{
+    font-size: 1.25rem;
+}
+
+.title-source{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+    height: 2rem;
+}
+
+.title-source a {
+    color: #333;
+    text-decoration: none;
+}
+
+.title-source a:hover {
+
+    /* text-decoration: underline; */
+    border-bottom: solid .1rem purple;
+
+}
+
+.fa-github{
+    font-size: 1.25rem;
+    margin: 0 .35rem;
+    color: rgb(73, 6, 73);
+}
+
+strong{
+    color: #222;
 }
